@@ -1,0 +1,12 @@
+.menu-item {
+  &-price-tag {
+    border-color: var(--color-gray-light);
+  }
+
+  &-image {
+    img {
+      max-height: 8rem;
+      margin-left: auto;
+    }
+  }
+}

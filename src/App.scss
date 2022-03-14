@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: bisque;
-}
+@import "./scss/common";
+@import "./scss/components";
+@import "./scss/pages";
