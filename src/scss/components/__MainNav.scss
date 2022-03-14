@@ -1,0 +1,23 @@
+.main-nav {
+  display: flex;
+  align-items: center;
+
+  > li {
+    margin: 0 1rem;
+
+    a {
+      color: #ffffff;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25em;
+
+      transition: all 0.1s linear;
+      transition-property: background-color, color;
+
+      &.active,
+      &:hover {
+        background-color: #ffffff;
+        color: var(--color-gray-darker);
+      }
+    }
+  }
+}

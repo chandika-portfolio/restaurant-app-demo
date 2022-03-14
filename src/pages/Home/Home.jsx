@@ -2,7 +2,10 @@ import React from "react";
 
 // Components
 import Header from "../../components/Header/Header";
-import MenuItem from "../../components/MenuItem/MenuItem";
+import MenuItem from "../../components/FoodMenuItem/FoodMenuItem";
+
+// Layouts
+import PageLayout from "../../layouts/PageLayout";
 
 // Data
 import { foodItems } from "./foodItems";
@@ -16,11 +19,5 @@ export default function () {
     );
   });
 
-  return (
-    <div>
-      <Header className="mb-4 py-3 border" />
-
-      {MenuItemElements}
-    </div>
-  );
+  return <PageLayout>{MenuItemElements}</PageLayout>;
 }
